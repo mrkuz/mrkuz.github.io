@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gaming on bitsandbobs</title>
+    <link>https://mrkuz.github.io/tags/gaming/</link>
+    <description>Recent content in gaming on bitsandbobs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Oct 2019 18:52:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://mrkuz.github.io/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to play &#34;Planescape: Torment&#34; on Ubuntu 19.10 Eoan</title>
+      <link>https://mrkuz.github.io/blog/planescape-torment-on-ubuntu-eoan/</link>
+      <pubDate>Sun, 20 Oct 2019 18:52:00 +0200</pubDate>
+      
+      <guid>https://mrkuz.github.io/blog/planescape-torment-on-ubuntu-eoan/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.beamdog.com&#34;&gt;Beamdog&lt;/a&gt; provides a Linux version of the Enhanced Edition, but it does not run out of the box with the latest Ubuntu version.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
