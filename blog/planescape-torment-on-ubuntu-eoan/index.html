@@ -61,7 +61,7 @@ if (!doNotTrack) {
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-10-20T18:52:00">October 20, 2019</time>
+	<time class="meta__text" datetime="2019-10-23T18:48:00">October 23, 2019</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -70,9 +70,34 @@ if (!doNotTrack) {
 </div>
 </div>
 		</header><div class="content post__content clearfix">
-			<p><a href="https://www.beamdog.com">Beamdog</a> provides a Linux version of the Enhanced Edition, but it does not run out of the box with the latest Ubuntu version.</p>
+			<p><a href="https://www.beamdog.com">Beamdog</a> provides a Linux version of the <a href="http://www.planescape.com/">Enhanced Edition</a>, but it does not run out of the box with
+the latest Ubuntu version.</p>
 
-<p>WIP</p>
+<p>Follow these steps to get it up and running.</p>
+
+<p><strong>1. Install dependencies</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt get install -y libgtk2.0-0 libgconf-2-4 libc6:i386 libgl1:i386</code></pre></div>
+<p><strong>2. Install libgnome-keyring0</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">wget http://mirrors.kernel.org/ubuntu/pool/universe/libg/libgnome-keyring/libgnome-keyring0_3.12.0-1build1_amd64.deb
+mkdir tmp
+dpkg-deb -R libgnome-keyring0_*.deb tmp/
+sudo mv tmp/usr/lib/x86_64-linux-gnu/libgnome-keyring.so.0* /usr/lib/x86_64-linux-gnu/
+rm -rf tmp</code></pre></div>
+<p><strong>3. Download the <a href="http://client.beamdog.com/">Beamdog Client</a></strong></p>
+
+<p><strong>4. Install &ldquo;Planescape: Torment&rdquo;</strong></p>
+
+<p><strong>5. Have fun</strong></p>
+
+<p><strong>Optional: Update Steam runtime</strong></p>
+
+<p>If it still doesn&rsquo;t work, you can try to update the bundled Stream runtime to the latest version.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/.config/Beamdog<span style="color:#ae81ff">\ </span>Client/
+wget http://repo.steampowered.com/steamrt-images-scout/snapshots/0.20191007.0/steam-runtime.tar.xz
+tar xJf steam-runtime.tar.xz
+mv steam-runtime-release_2014-04-15<span style="color:#f92672">{</span>,.bak<span style="color:#f92672">}</span>
+ln -s steam-runtime steam-runtime-release_2014-04-15
+rm steam-runtime.tar.xz</code></pre></div>
 		</div>
 		<footer class="post__footer">
 			

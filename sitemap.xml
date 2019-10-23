@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://blog.bitsandbobs.net/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/blog/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/categories/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/tags/gaming/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/blog/planescape-torment-on-ubuntu-eoan/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/categories/miscellaneous/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/tags/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/tags/ubuntu/</loc>
-    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+    <lastmod>2019-10-23T18:48:00+02:00</lastmod>
   </url>
   
 </urlset>

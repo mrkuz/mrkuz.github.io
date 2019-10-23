@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bits and Bobs</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2019 18:52:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2019 18:48:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Miscellaneous</title>
       <link>https://blog.bitsandbobs.net/categories/miscellaneous/</link>
-      <pubDate>Sun, 20 Oct 2019 18:52:00 +0200</pubDate>
+      <pubDate>Wed, 23 Oct 2019 18:48:00 +0200</pubDate>
       
       <guid>https://blog.bitsandbobs.net/categories/miscellaneous/</guid>
       <description></description>
