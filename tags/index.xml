@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on bitsandbobs</title>
-    <link>https://mrkuz.github.io/tags/</link>
-    <description>Recent content in Tags on bitsandbobs</description>
+    <title>Tags on Bits and Bobs</title>
+    <link>https://blog.bitsandbobs.net/tags/</link>
+    <description>Recent content in Tags on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Oct 2019 18:52:00 +0200</lastBuildDate>
     
-	<atom:link href="https://mrkuz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.bitsandbobs.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>gaming</title>
-      <link>https://mrkuz.github.io/tags/gaming/</link>
+      <link>https://blog.bitsandbobs.net/tags/gaming/</link>
       <pubDate>Sun, 20 Oct 2019 18:52:00 +0200</pubDate>
       
-      <guid>https://mrkuz.github.io/tags/gaming/</guid>
+      <guid>https://blog.bitsandbobs.net/tags/gaming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://mrkuz.github.io/tags/ubuntu/</link>
+      <link>https://blog.bitsandbobs.net/tags/ubuntu/</link>
       <pubDate>Sun, 20 Oct 2019 18:52:00 +0200</pubDate>
       
-      <guid>https://mrkuz.github.io/tags/ubuntu/</guid>
+      <guid>https://blog.bitsandbobs.net/tags/ubuntu/</guid>
       <description></description>
     </item>
     

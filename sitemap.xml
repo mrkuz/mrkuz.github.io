@@ -3,37 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mrkuz.github.io/</loc>
+    <loc>https://blog.bitsandbobs.net/</loc>
     <lastmod>2019-10-20T18:52:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrkuz.github.io/blog/</loc>
+    <loc>https://blog.bitsandbobs.net/blog/</loc>
     <lastmod>2019-10-20T18:52:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrkuz.github.io/tags/gaming/</loc>
+    <loc>https://blog.bitsandbobs.net/categories/</loc>
     <lastmod>2019-10-20T18:52:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrkuz.github.io/blog/planescape-torment-on-ubuntu-eoan/</loc>
+    <loc>https://blog.bitsandbobs.net/tags/gaming/</loc>
     <lastmod>2019-10-20T18:52:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrkuz.github.io/tags/</loc>
+    <loc>https://blog.bitsandbobs.net/blog/planescape-torment-on-ubuntu-eoan/</loc>
     <lastmod>2019-10-20T18:52:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrkuz.github.io/tags/ubuntu/</loc>
+    <loc>https://blog.bitsandbobs.net/categories/miscellaneous/</loc>
     <lastmod>2019-10-20T18:52:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrkuz.github.io/categories/</loc>
+    <loc>https://blog.bitsandbobs.net/tags/</loc>
+    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bitsandbobs.net/tags/ubuntu/</loc>
+    <lastmod>2019-10-20T18:52:00+02:00</lastmod>
   </url>
   
 </urlset>
