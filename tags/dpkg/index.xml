@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dpkg on Bits and Bobs</title>
+    <link>https://blog.bitsandbobs.net/tags/dpkg/</link>
+    <description>Recent content in dpkg on Bits and Bobs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Oct 2019 12:54:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.bitsandbobs.net/tags/dpkg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Show packages owning a file using dpkg</title>
+      <link>https://blog.bitsandbobs.net/blog/dpkg-show-packages-owning-file/</link>
+      <pubDate>Sat, 26 Oct 2019 12:54:00 +0200</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/dpkg-show-packages-owning-file/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

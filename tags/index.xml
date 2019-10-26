@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Oct 2019 18:48:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2019 12:54:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dpkg</title>
+      <link>https://blog.bitsandbobs.net/tags/dpkg/</link>
+      <pubDate>Sat, 26 Oct 2019 12:54:00 +0200</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/dpkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.bitsandbobs.net/tags/linux/</link>
+      <pubDate>Sat, 26 Oct 2019 12:54:00 +0200</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>gaming</title>
