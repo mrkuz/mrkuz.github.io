@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Oct 2019 12:54:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 20:10:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>gnome</title>
+      <link>https://blog.bitsandbobs.net/tags/gnome/</link>
+      <pubDate>Mon, 28 Oct 2019 20:10:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/gnome/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>dpkg</title>

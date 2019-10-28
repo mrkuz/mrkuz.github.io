@@ -6,10 +6,19 @@
     <description>Recent content in Miscellaneous on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Oct 2019 18:48:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 20:10:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My favourite GNOME Shell Extensions</title>
+      <link>https://blog.bitsandbobs.net/blog/favourite-gnome-shell-extensions/</link>
+      <pubDate>Mon, 28 Oct 2019 20:10:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/favourite-gnome-shell-extensions/</guid>
+      <description>&lt;p&gt;GNOME Shell is great, but this extensions make the experience even more pleasant.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How to play &#34;Planescape: Torment&#34; on Ubuntu 19.10 Eoan</title>

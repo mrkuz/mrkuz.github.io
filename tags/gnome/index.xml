@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gnome on Bits and Bobs</title>
+    <link>https://blog.bitsandbobs.net/tags/gnome/</link>
+    <description>Recent content in gnome on Bits and Bobs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Oct 2019 20:10:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.bitsandbobs.net/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My favourite GNOME Shell Extensions</title>
+      <link>https://blog.bitsandbobs.net/blog/favourite-gnome-shell-extensions/</link>
+      <pubDate>Mon, 28 Oct 2019 20:10:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/favourite-gnome-shell-extensions/</guid>
+      <description>&lt;p&gt;GNOME Shell is great, but this extensions make the experience even more pleasant.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
