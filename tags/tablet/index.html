@@ -42,6 +42,7 @@ if (!doNotTrack) {
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
+    <script defer src="/fontawesome/js/all.min.js"></script>
 	<div class="container">
 		<div class="logo">
 			<a class="logo__link" href="/" title="Bits and Bobs" rel="home">
@@ -49,9 +50,25 @@ if (!doNotTrack) {
 				<div class="logo__tagline">Blogging about... stuff</div>
 			</a>
 		</div>
-		<div class="divider"></div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/"><i class='fas fa-home'></i><span> Home</span></a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blog/index.xml"><i class='fas fa-rss'></i><span> RSS Feed</span></a>
+		</li>
+	</ul>
+</nav>
+
+
 	</div>
 </header>
+
 		<div class="wrapper flex">
 			<div class="primary">
 			
