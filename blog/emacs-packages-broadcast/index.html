@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Show packages owning a file using dpkg - Bits and Bobs</title>
+	<title>Emacs packages: broadcast - Bits and Bobs</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	
@@ -74,28 +74,39 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Show packages owning a file using dpkg</h1>
+			<h1 class="post__title">Emacs packages: broadcast</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-10-26T12:54:00">October 26, 2019</time>
+	<time class="meta__text" datetime="2019-11-03T08:27:00">November 03, 2019</time>
 </div>
 
 <div class="meta__item-categories meta__item">
 	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/quick-tips" rel="category">Quick tips</a></span>
+	<span class="meta__text"><a class="meta__link" href="/categories/emacs" rel="category">Emacs</a></span>
 </div>
 </div>
 		</header><div class="content post__content clearfix">
-			<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">dpkg -S FILE</code></pre></div>
+			<p>The package <a href="https://github.com/killdash9/broadcast.el">broadcast</a> allows you to simultaneous edit buffers.</p>
+
+<p><strong>Installlation</strong></p>
+
+<p>I prefer to use <a href="https://github.com/jwiegley/use-package">use-package</a>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(use-package broadcast
+  :ensure <span style="color:#66d9ef">t</span>
+  :commands broadcast-mode)</code></pre></div>
+<p><strong>Usage</strong></p>
+
+<p>Enable broadcast mode on all buffers you want to edit simultaneous (<code>M-x broadcast-mode</code>). This
+links the buffers together, so that every command issued in one of them, will be replicated to the
+others. Affects only visible buffers.</p>
 		</div>
 		<footer class="post__footer">
 			
 <div class="post__tags tags clearfix">
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="/tags/linux/" rel="tag">linux</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/tags/dpkg/" rel="tag">dpkg</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/emacs/" rel="tag">emacs</a></li>
 	</ul>
 </div>
 		</footer>
