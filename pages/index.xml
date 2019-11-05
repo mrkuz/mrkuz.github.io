@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Bits and Bobs</title>
+    <link>https://blog.bitsandbobs.net/pages/</link>
+    <description>Recent content in Pages on Bits and Bobs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://blog.bitsandbobs.net/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://blog.bitsandbobs.net/pages/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/pages/privacy-policy/</guid>
+      <description>The aim of this page is to explain the approach to your privacy on this website.
+GDPR and personal data
+This site does not require (nor make it available to) the user to sign in, therefore no access to personal data is needed. This also means, no personal data will be stored.
+Google Analytics
+This site uses Google Analytics to collect anonymous statistical data about your visits. For example, which pages you visit, how much time you spend on each page and how you arrived to the site.</description>
+    </item>
+    
+  </channel>
+</rss>

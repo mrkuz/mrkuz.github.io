@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>How to optimize XFCE4 for tablets - Bits and Bobs</title>
+	<title>Show progress of dd - Bits and Bobs</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	
@@ -74,131 +74,28 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">How to optimize XFCE4 for tablets</h1>
+			<h1 class="post__title">Show progress of dd</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-11-01T07:52:00">November 01, 2019</time>
+	<time class="meta__text" datetime="2019-11-04T20:58:00">November 04, 2019</time>
 </div>
 
 <div class="meta__item-categories meta__item">
 	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/miscellaneous" rel="category">Miscellaneous</a></span>
+	<span class="meta__text"><a class="meta__link" href="/categories/quick-tips" rel="category">Quick tips</a></span>
 </div>
 </div>
 		</header><div class="content post__content clearfix">
-			<p>This guide describes how to make XFCE more usable on tablets.</p>
-
-<p>Recently I bought a used Dell Venue 8 Pro (3845) tablet. It&rsquo;s an Intel Bay Trail tablet which comes
-with Windows preinstalled. But it is quite easy to get Linux up and running (see <a href="https://www.studioteabag.com/science/dell-venue-pro-linux/">this guide from
-Studio :: TeaBag</a>).</p>
-
-<p>I tried some distributions and finally decided to go with Xubuntu 19.10 Eoan. XFCE has a low memory
-footprint (the tablet has only 1GB of RAM), looks nice and feels snappy. But it is a desktop
-environment, so here are some tips to improve usability on tablets.</p>
-
-<h2 id="settings-appearance">Settings: Appearance</h2>
-
-<ul>
-<li><p>Increase font size</p>
-
-<p><code>Fonts -&gt; Custom DPI setting: 120</code></p></li>
-</ul>
-
-<h2 id="settings-desktop">Settings: Desktop</h2>
-
-<ul>
-<li><p>Increase icon size</p>
-
-<p><code>Icons -&gt; Icon size: 64</code></p></li>
-
-<li><p>Activate single click</p>
-
-<p><code>Icons -&gt; Single click to activate items: yes</code></p></li>
-</ul>
-
-<h2 id="settings-window-manager">Settings: Window manager</h2>
-
-<ul>
-<li><p>Change theme for bigger titlebar buttons</p>
-
-<p><code>Style -&gt; Greybird-accesibility</code></p></li>
-</ul>
-
-<h2 id="settings-panel-preferences">Settings: Panel Preferences</h2>
-
-<ul>
-<li><p>Increase row size</p>
-
-<p><code>Display -&gt; Row size: 38 pixels</code></p></li>
-
-<li><p>Whisker menu: Increase icon size</p>
-
-<p><code>Appearance -&gt; Item icon size: Small</code> <br />
-<code>Appearance -&gt; Category icon size: Smaller</code></p></li>
-
-<li><p>Add workspace switcher to the panel</p></li>
-</ul>
-
-<h2 id="settings-workspaces">Settings: Workspaces</h2>
-
-<ul>
-<li><p>Use multiple workspaces</p>
-
-<p><code>Number of workspaces: 4</code></p></li>
-</ul>
-
-<h2 id="settings-session-and-startup">Settings: Session and Startup</h2>
-
-<ul>
-<li><p>Activate <code>Onboard</code> to launch on-screen keyboard on start. If you are not using Xubuntu, you might
-have to install it first.</p></li>
-
-<li><p>Deactivate <code>Blueman applet</code> if not needed to save some memory.</p></li>
-</ul>
-
-<h2 id="settings-lock-screen">Settings: Lock Screen</h2>
-
-<ul>
-<li><p>Disable the lock screen</p>
-
-<p><code>Lock Screen -&gt; Lock Screen with Screensaver: no</code> <br />
-<code>Lock Screen -&gt; Lock Screen with System Sleep: no</code></p></li>
-
-<li><p>Alternative: Configure on-screen keyboard</p>
-
-<p><code>Lock Screen -&gt; On Screen Keyboard: yes</code> <br />
-<code>Lock Screen -&gt; On Screen keyboard command: onboard</code></p></li>
-</ul>
-
-<h2 id="thunar">Thunar</h2>
-
-<ul>
-<li><p>Activate single click</p>
-
-<p><code>Edit -&gt; Preferences -&gt; Behavior -&gt; Navigation -&gt; Single click to activate items: yes</code></p></li>
-</ul>
-
-<h2 id="xubuntu-related">Xubuntu related</h2>
-
-<ul>
-<li><p>Remove some unused packages:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">apt purge libreoffice-core libreoffice-common simple-scan xfburn</code></pre></div></li>
-
-<li><p>Replace Firefox web browser with Midori</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">apt purge firefox
-apt install midori</code></pre></div></li>
-</ul>
-
-<p>Don&rsquo;t forget to set Midori as preferred web browser application.</p>
+			<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">dd <span style="color:#66d9ef">if</span><span style="color:#f92672">=</span>SOURCE of<span style="color:#f92672">=</span>TARGET status<span style="color:#f92672">=</span>progress</code></pre></div>
 		</div>
 		<footer class="post__footer">
 			
 <div class="post__tags tags clearfix">
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="/tags/tablet/" rel="tag">tablet</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/tags/xfce/" rel="tag">xfce</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/linux/" rel="tag">linux</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/dd/" rel="tag">dd</a></li>
 	</ul>
 </div>
 		</footer>

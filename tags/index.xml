@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2019 08:27:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 21:08:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>emacs</title>
       <link>https://blog.bitsandbobs.net/tags/emacs/</link>
-      <pubDate>Sun, 03 Nov 2019 08:27:00 +0100</pubDate>
+      <pubDate>Tue, 05 Nov 2019 21:08:00 +0100</pubDate>
       
       <guid>https://blog.bitsandbobs.net/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dd</title>
+      <link>https://blog.bitsandbobs.net/tags/dd/</link>
+      <pubDate>Mon, 04 Nov 2019 20:58:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/dd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.bitsandbobs.net/tags/linux/</link>
+      <pubDate>Mon, 04 Nov 2019 20:58:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -53,15 +71,6 @@
       <pubDate>Sat, 26 Oct 2019 12:54:00 +0200</pubDate>
       
       <guid>https://blog.bitsandbobs.net/tags/dpkg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.bitsandbobs.net/tags/linux/</link>
-      <pubDate>Sat, 26 Oct 2019 12:54:00 +0200</pubDate>
-      
-      <guid>https://blog.bitsandbobs.net/tags/linux/</guid>
       <description></description>
     </item>
     

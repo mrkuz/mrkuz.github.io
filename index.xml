@@ -6,10 +6,28 @@
     <description>Recent content on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2019 08:27:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 21:08:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emacs packages: org-sticky-header</title>
+      <link>https://blog.bitsandbobs.net/blog/emacs-packages-org-sticky-header/</link>
+      <pubDate>Tue, 05 Nov 2019 21:08:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/emacs-packages-org-sticky-header/</guid>
+      <description>&lt;p&gt;The package &lt;a href=&#34;https://github.com/alphapapa/org-sticky-header&#34;&gt;org-sticky-header&lt;/a&gt; shows a sticky bar at the top, showing the current org heading.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Show progress of dd</title>
+      <link>https://blog.bitsandbobs.net/blog/dd-show-progress/</link>
+      <pubDate>Mon, 04 Nov 2019 20:58:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/dd-show-progress/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Emacs packages: broadcast</title>
@@ -55,6 +73,19 @@
       <guid>https://blog.bitsandbobs.net/blog/planescape-torment-on-ubuntu-eoan/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.beamdog.com&#34;&gt;Beamdog&lt;/a&gt; provides a Linux version of the &lt;a href=&#34;http://www.planescape.com/&#34;&gt;Enhanced Edition&lt;/a&gt;, but it does not run out of the box with
 the latest Ubuntu version.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://blog.bitsandbobs.net/pages/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/pages/privacy-policy/</guid>
+      <description>The aim of this page is to explain the approach to your privacy on this website.
+GDPR and personal data
+This site does not require (nor make it available to) the user to sign in, therefore no access to personal data is needed. This also means, no personal data will be stored.
+Google Analytics
+This site uses Google Analytics to collect anonymous statistical data about your visits. For example, which pages you visit, how much time you spend on each page and how you arrived to the site.</description>
     </item>
     
   </channel>

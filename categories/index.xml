@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2019 08:27:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 21:08:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Emacs</title>
       <link>https://blog.bitsandbobs.net/categories/emacs/</link>
-      <pubDate>Sun, 03 Nov 2019 08:27:00 +0100</pubDate>
+      <pubDate>Tue, 05 Nov 2019 21:08:00 +0100</pubDate>
       
       <guid>https://blog.bitsandbobs.net/categories/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick tips</title>
+      <link>https://blog.bitsandbobs.net/categories/quick-tips/</link>
+      <pubDate>Mon, 04 Nov 2019 20:58:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/categories/quick-tips/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Fri, 01 Nov 2019 07:52:00 +0100</pubDate>
       
       <guid>https://blog.bitsandbobs.net/categories/miscellaneous/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quick tips</title>
-      <link>https://blog.bitsandbobs.net/categories/quick-tips/</link>
-      <pubDate>Sat, 26 Oct 2019 12:54:00 +0200</pubDate>
-      
-      <guid>https://blog.bitsandbobs.net/categories/quick-tips/</guid>
       <description></description>
     </item>
     
