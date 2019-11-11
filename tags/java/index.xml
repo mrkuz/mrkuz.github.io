@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Bits and Bobs</title>
+    <link>https://blog.bitsandbobs.net/tags/java/</link>
+    <description>Recent content in java on Bits and Bobs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Nov 2019 21:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.bitsandbobs.net/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debugging with Maven</title>
+      <link>https://blog.bitsandbobs.net/blog/debugging-with-maven/</link>
+      <pubDate>Mon, 11 Nov 2019 21:00:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/debugging-with-maven/</guid>
+      <description>&lt;p&gt;This short guide describes how to simplify debugging by using profiles.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

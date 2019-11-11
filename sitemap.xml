@@ -4,17 +4,42 @@
   
   <url>
     <loc>https://blog.bitsandbobs.net/</loc>
-    <lastmod>2019-11-05T21:08:00+01:00</lastmod>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/blog/</loc>
-    <lastmod>2019-11-05T21:08:00+01:00</lastmod>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bitsandbobs.net/categories/</loc>
-    <lastmod>2019-11-05T21:08:00+01:00</lastmod>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bitsandbobs.net/blog/debugging-with-maven/</loc>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bitsandbobs.net/categories/development/</loc>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bitsandbobs.net/tags/java/</loc>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bitsandbobs.net/tags/maven/</loc>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bitsandbobs.net/tags/</loc>
+    <lastmod>2019-11-11T21:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -34,11 +59,6 @@
   
   <url>
     <loc>https://blog.bitsandbobs.net/tags/org/</loc>
-    <lastmod>2019-11-05T21:08:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bitsandbobs.net/tags/</loc>
     <lastmod>2019-11-05T21:08:00+01:00</lastmod>
   </url>
   

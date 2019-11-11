@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2019 21:08:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2019 21:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Debugging with Maven</title>
+      <link>https://blog.bitsandbobs.net/blog/debugging-with-maven/</link>
+      <pubDate>Mon, 11 Nov 2019 21:00:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/debugging-with-maven/</guid>
+      <description>&lt;p&gt;This short guide describes how to simplify debugging by using profiles.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Emacs packages: org-sticky-header</title>
