@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GitHub-like Markdown preview with Emacs - Bits and Bobs</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-150662627-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+    <script defer src="/fontawesome/js/all.min.js"></script>
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="Bits and Bobs" rel="home">
+				<div class="logo__title">Bits and Bobs</div>
+				<div class="logo__tagline">Blogging about... stuff</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/"><i class='fas fa-home'></i><span> Home</span></a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blog/index.xml"><i class='fas fa-rss'></i><span> RSS Feed</span></a>
+		</li>
+	</ul>
+</nav>
+
+
+	</div>
+</header>
+
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">GitHub-like Markdown preview with Emacs</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2019-11-24T16:55:00">November 24, 2019</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/emacs" rel="category">Emacs</a></span>
+</div>
+</div>
+		</header><div class="content post__content clearfix">
+			<p>This post describes how to set up Markdown live previews with Emacs.</p>
+
+<h2 id="what-i-want-to-accomplish">What I want to accomplish</h2>
+
+<ul>
+<li>Live preview in the web browser</li>
+<li>Update preview as you type</li>
+<li>GitHub look</li>
+</ul>
+
+<h2 id="how-to--using-use-package">How to (using <a href="https://github.com/jwiegley/use-package">use-package</a>)</h2>
+
+<p><strong>Editing</strong></p>
+
+<p>I use <a href="https://jblevins.org/projects/markdown-mode/">markdown-mode</a> for editing Markdown files in Emacs.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(use-package markdown-mode
+  :ensure <span style="color:#66d9ef">t</span>
+  :mode (<span style="color:#e6db74">&#34;\\.md\\&#39;&#34;</span> <span style="color:#f92672">.</span> gfm-mode)
+  :commands (markdown-mode gfm-mode)
+  :config
+  (setq markdown-command <span style="color:#e6db74">&#34;pandoc -t html5&#34;</span>))</code></pre></div>
+<p><a href="https://pandoc.org/">Pandoc</a> is used for HTML rendering. So make sure you have it installed or change the <code>markdown-command</code>.</p>
+
+<p><strong>Preview</strong></p>
+
+<p><a href="https://github.com/skeeto/impatient-mode">impatient-mode</a> takes the content of your buffer, passes it through a filter an serves the result via
+<a href="https://github.com/skeeto/emacs-web-server">simple-httpd</a> HTTP server.</p>
+
+<p>First install both packages.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(use-package simple-httpd
+  :ensure <span style="color:#66d9ef">t</span>
+  :config
+  (setq httpd-port <span style="color:#ae81ff">7070</span>)
+  (setq httpd-host (<span style="color:#a6e22e">system-name</span>)))
+
+(use-package impatient-mode
+  :ensure <span style="color:#66d9ef">t</span>
+  :commands impatient-mode)</code></pre></div>
+<p>Now create a filter function to process the Markdown buffer.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(defun my-markdown-filter (buffer)
+  (<span style="color:#a6e22e">princ</span>
+   (with-temp-buffer
+     (let ((tmp (<span style="color:#a6e22e">buffer-name</span>)))
+       (<span style="color:#a6e22e">set-buffer</span> buffer)
+       (<span style="color:#a6e22e">set-buffer</span> (markdown tmp))
+       (<span style="color:#a6e22e">format</span> <span style="color:#e6db74">&#34;&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;title&gt;Markdown preview&lt;/title&gt;&lt;link rel=\&#34;stylesheet\&#34; href = \&#34;https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css\&#34;/&gt;
+</span><span style="color:#e6db74">&lt;body&gt;&lt;article class=\&#34;markdown-body\&#34; style=\&#34;box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;\&#34;&gt;%s&lt;/article&gt;&lt;/body&gt;&lt;/html&gt;&#34;</span> (<span style="color:#a6e22e">buffer-string</span>))))
+   (<span style="color:#a6e22e">current-buffer</span>)))</code></pre></div>
+<p>The function uses the <code>markdown</code> command from <a href="https://jblevins.org/projects/markdown-mode/">markdown-mode</a> to generate HTML content. To mimic the look of GitHub, it uses the CSS from <a href="https://github.com/sindresorhus/github-markdown-css">github-markdown-css</a>.</p>
+
+<p>Last but not least create a function to show preview.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(defun my-markdown-preview ()
+  <span style="color:#e6db74">&#34;Preview markdown.&#34;</span>
+  (interactive)
+  (unless (<span style="color:#a6e22e">process-status</span> <span style="color:#e6db74">&#34;httpd&#34;</span>)
+    (httpd-start))
+  (impatient-mode)
+  (imp-set-user-filter <span style="color:#e6db74">&#39;my-markdown-filter</span>)
+  (imp-visit-buffer))</code></pre></div>
+<p>Run <code>my-markdown-preview</code> in any Markdown buffer, it will open a new window in your browser and
+update it as you type.</p>
+
+<h2 id="alternatives">Alternatives</h2>
+
+<p>There are some other packages that also provide live previews, but didn&rsquo;t work out for me.</p>
+
+<ul>
+<li><a href="https://github.com/ancane/markdown-preview-mode">markdown-preview-mode</a>: Updates preview only on save or when idle</li>
+<li><a href="https://github.com/mola-T/flymd">flymd</a>: Doesn&rsquo;t play well with Google Chrome</li>
+<li><a href="https://github.com/blak3mill3r/vmd-mode">vmd-mode</a>: Depends on <a href="https://nodejs.org/en/">Node.js</a> and <a href="https://github.com/yoshuawuyts/vmd">vmd</a></li>
+</ul>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/emacs/" rel="tag">emacs</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/org/" rel="tag">org</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/markdown/" rel="tag">markdown</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mrkuz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		<div class="footer__links">
+	<a class="footer__link" href="/pages/privacy-policy/">Privacy Policy</a>
+</div>
+		<div class="footer__copyright">
+			&copy; 2019 Markus Opitz.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Bits and Bobs</title>
+    <link>https://blog.bitsandbobs.net/tags/markdown/</link>
+    <description>Recent content in markdown on Bits and Bobs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Nov 2019 16:55:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.bitsandbobs.net/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub-like Markdown preview with Emacs</title>
+      <link>https://blog.bitsandbobs.net/blog/emacs-markdown-live-preview/</link>
+      <pubDate>Sun, 24 Nov 2019 16:55:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/blog/emacs-markdown-live-preview/</guid>
+      <description>&lt;p&gt;This post describes how to set up Markdown live previews with Emacs.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

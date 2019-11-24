@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Bits and Bobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2019 21:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2019 16:55:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.bitsandbobs.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>emacs</title>
+      <link>https://blog.bitsandbobs.net/tags/emacs/</link>
+      <pubDate>Sun, 24 Nov 2019 16:55:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://blog.bitsandbobs.net/tags/markdown/</link>
+      <pubDate>Sun, 24 Nov 2019 16:55:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org</title>
+      <link>https://blog.bitsandbobs.net/tags/org/</link>
+      <pubDate>Sun, 24 Nov 2019 16:55:00 +0100</pubDate>
+      
+      <guid>https://blog.bitsandbobs.net/tags/org/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>java</title>
@@ -26,24 +53,6 @@
       <pubDate>Mon, 11 Nov 2019 21:00:00 +0100</pubDate>
       
       <guid>https://blog.bitsandbobs.net/tags/maven/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emacs</title>
-      <link>https://blog.bitsandbobs.net/tags/emacs/</link>
-      <pubDate>Tue, 05 Nov 2019 21:08:00 +0100</pubDate>
-      
-      <guid>https://blog.bitsandbobs.net/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>org</title>
-      <link>https://blog.bitsandbobs.net/tags/org/</link>
-      <pubDate>Tue, 05 Nov 2019 21:08:00 +0100</pubDate>
-      
-      <guid>https://blog.bitsandbobs.net/tags/org/</guid>
       <description></description>
     </item>
     
